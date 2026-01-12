@@ -5,7 +5,7 @@
             box-sizing: border-box;
         }
 
-        /* Header padding , align korlam */
+/* Header padding , align korlam */
 header {
             display: flex;
             justify-content: space-between;
@@ -46,8 +46,8 @@ header {
         /* Hero Section  */
         .hero {
             position: relative;
-            height: 80vh;
-            background-image: url(heroCover.png);
+            height: 90vh;  /* size of hero section  */
+            background-image: url(heroCover.png); 
             background-size: cover;
             background-position: center;
             display: flex;
@@ -79,3 +79,62 @@ header {
             border-radius: 5px;
             cursor: pointer;
         }
+ 
+.feature-section {
+    padding: 60px 50px;       
+    text-align: center;      
+    background-color: #111;   
+    color: white;             
+}
+
+/* Section heading */
+.feature-section .section-title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Section subtitle */
+.feature-section .section-subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #aaa; /* lighter color for subtitle */
+}
+
+/* Box container */
+.feature-section .box-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 boxes per row */
+    gap: 20px; 
+    text-align: left;                       
+}
+
+/* Individual boxes */
+.feature-section .box {
+    background-color: #222;   /* dark grey box */
+    padding: 25px;            /* space inside the box */
+    border-radius: 8px;       /* rounded corners */
+    border: 1px solid #444;   /* subtle border */
+}
+
+/* Hover for box */
+.feature-section .box:hover {
+    transform: translateY(-5px);                 
+}
+
+/* Box heading */
+.feature-section .box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+/* Box subtitle */
+.feature-section .box p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+     
+
+
