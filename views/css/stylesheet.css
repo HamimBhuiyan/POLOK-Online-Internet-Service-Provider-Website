@@ -103,26 +103,26 @@ header {
 .feature-section .section-subtitle {
     font-size: 18px;
     margin-bottom: 40px;
-    color: #aaa; /* lighter color for subtitle */
+    color: #aaa; 
 }
 
 /* Box container */
 .feature-section .box-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 boxes per row */
+    grid-template-columns: repeat(4, 1fr); 
     gap: 20px; 
     text-align: left;                       
 }
 
-/* Individual boxes */
+
 .feature-section .box {
-    background-color: #222;   /* dark grey box */
-    padding: 25px;            /* space inside the box */
-    border-radius: 8px;       /* rounded corners */
-    border: 1px solid #444;   /* subtle border */
+    background-color: #222;   
+    padding: 25px;           
+    border-radius: 8px;      
+    border: 1px solid #444;   
 }
 
-/* Hover for box */
+
 .feature-section .box:hover {
     transform: translateY(-5px);                 
 }
@@ -142,4 +142,57 @@ header {
 
      
 
+/* FAQ SECTION CSS*/
+.faq-section {
+    background-color: #000; 
+    color: #fff;
+    padding: 60px 80px;
+    height:100vh;
+    
+  
+}
+
+
+.faq-title {
+    text-align: center;
+    font-size: 36px;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+
+.faq-subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #bbb;
+    margin-bottom: 40px;
+}
+
+
+.faq-container {
+    max-width: 900px;
+    margin: auto;
+}
+
+.faq-item {
+    background-color: #1a1a1a; /* Light Black */
+    padding: 20px 25px;
+    margin-bottom: 15px;
+    border-left: 4px solid #444;
+    transition: 0.3s;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.faq-item p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.faq-item:hover {
+    background-color: #222;
+    border-left-color: #888;
+}
 
