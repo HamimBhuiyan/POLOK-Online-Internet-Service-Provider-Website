@@ -13,6 +13,11 @@ header {
             padding: 15px 50px;
             background-color: #000;
             color: white;
+
+             position: fixed;       
+             width: 100%;
+             z-index:1;
+        
         }
 /* Header er logo size fix  */
         .logo img {
