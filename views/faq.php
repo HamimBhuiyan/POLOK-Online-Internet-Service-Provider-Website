@@ -13,7 +13,7 @@
 <body>
      <header>
         <div class="logo">
-            <img src="css/logo.jpeg" alt="Logo">
+            <a href="landing.php"><img src="css/logo.jpeg" alt="Logo"></a>
         </div>
         <nav>
             <ul>
