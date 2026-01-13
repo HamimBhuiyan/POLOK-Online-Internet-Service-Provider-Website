@@ -9,6 +9,8 @@
     
     <title>FAQ - ISP Broadband</title>
     <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/login.js" defer></script>
+    
 </head>
 <body>
      <header>
@@ -25,7 +27,7 @@
                 <li><a href="faq.php">FAQ</a></li>
             </ul>
         </nav>
-        <button class="signin-btn">SIGNIN / LOGIN</button>
+        <button id="signin-btn">SIGNIN / LOGIN</button>
     </header>
 
 <section class="faq-section">

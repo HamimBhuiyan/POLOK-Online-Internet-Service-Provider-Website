@@ -8,6 +8,7 @@
     <head>
         <title>Polok Online</title>
         <link rel="stylesheet" href="css/stylesheet.css" >
+        <script src="js/login.js" defer></script>
     
     </head>
     <body>
@@ -25,7 +26,7 @@
                 <li><a href="faq.php">FAQ</a></li>
             </ul>
         </nav>
-        <button class="signin-btn">SIGNIN / LOGIN</button>
+        <button id="signin-btn">SIGNIN / LOGIN</button>
     </header>
     
     <section class="hero">
