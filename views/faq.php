@@ -48,7 +48,7 @@
 
         <div class="faq-item">
             <h3>How long does installation take?</h3>
-            <p>Installation usually takes 24–48 hours after confirmation.</p>
+            <p>Installation usually takes 24-48 hours after confirmation.</p>
         </div>
 
         <div class="faq-item">
