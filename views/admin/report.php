@@ -32,7 +32,6 @@ $reports = getAllReports(); //report shob fetch
         <a href="aHome.php">Home</a>
         <a href="manageA.php">Manage Accounts</a>
         <a href="manageP.php">Manage Packages</a>
-        <a href="reports.php" class="active">Reports</a>
         <a href="revenue.php">Revenue</a>
         <a href="settings.php">Settings</a>
         <a href="../logout.php" class="logout">Logout</a>

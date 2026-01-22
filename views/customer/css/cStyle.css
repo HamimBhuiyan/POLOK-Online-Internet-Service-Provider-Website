@@ -30,6 +30,115 @@ body { background:black; color:white; }
 .content { flex:1; padding:30px; background:#1a1a1a; color:white; }
 
 /* PROFILE SPECIFIC */
-.profile-container { padding:20px; }
-.profile-item { margin-bottom:15px; }
-.profile-pic { width:120px; height:120px; border-radius:50%; object-fit:cover; }
+/* PROFILE SPECIFIC - Improved */
+.profile-container {
+    padding: 25px;
+    background: #2b2b2b;  /* Slightly lighter than content for contrast */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    max-width: 600px;
+    margin: auto;
+}
+
+.profile-item {
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    background: #3a3a3a;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+}
+
+.profile-item:hover {
+    background: #505050; /* subtle hover effect */
+}
+
+.profile-item strong {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+
+.profile-item span, 
+.profile-item input, 
+.profile-item select {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #0066ff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,102,255,0.7);
+}
+
+#editBtn {
+    display: block;
+    margin: 20px auto 0 auto;
+    padding: 12px 25px;
+    border-radius: 25px;
+    border: none;
+    background: #0066ff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#editBtn:hover {
+    background: #0052cc;
+    transform: scale(1.05);
+}
+
+#editForm {
+    margin-top: 25px;
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+}
+
+#editForm input, 
+#editForm select, 
+#editForm button[type="submit"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background: #1a1a1a;
+    color: #fff;
+    font-size: 14px;
+}
+
+#editForm input:focus, 
+#editForm select:focus {
+    outline: none;
+    border-color: #0066ff;
+    box-shadow: 0 0 5px #0066ff;
+}
+
+#editForm button[type="submit"] {
+    background: #28a745;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#editForm button[type="submit"]:hover {
+    background: #218838;
+    transform: scale(1.02);
+}
+  

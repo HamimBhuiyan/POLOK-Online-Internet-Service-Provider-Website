@@ -38,6 +38,13 @@ if(!isset($_SESSION['role']) || $_SESSION['role'] != 3 || !isset($_SESSION['stat
     <!-- content -->
     <div class="content">
         <h2>Settings</h2>
+        <br>
+        <button id="light">Light Mode / Dark Mode</button>
 </div>
+
+
+   
+    
+
 </body>
 </html>

@@ -30,7 +30,7 @@ require_once(__DIR__ . '/../../controllers/customerControl.php');
 
     <div class="content">
         <h2>Available Packages</h2>
-        <input type="text" id="package-search" placeholder="Search Packages..." style="width:100%; padding:8px; margin-bottom:20px;">>
+        <input type="text" id="package-search" placeholder="Search Packages..." style="width:100%; padding:8px; margin-bottom:20px;">
         <table border="1" width="100%" cellpadding="8" id="packages-table">
             <thead>
                 <tr>
@@ -56,6 +56,7 @@ require_once(__DIR__ . '/../../controllers/customerControl.php');
     </div>
 
 </div>
+
 
 <script>
 function searchPackages() {
