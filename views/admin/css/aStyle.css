@@ -29,11 +29,11 @@ body { background:black; color:white; }
 .sidebar .logout { background:red; }
 
 
-/* Add */ 
+
 #add-customer-form {
-    margin-top: 30px;           /* Delete form থেকে নিচে spacing */
-    background: #2e2e2e;        /* Dark background */
-    padding: 20px;              /* Padding inside form */
+    margin-top: 30px;         
+    background: #2e2e2e;        
+    padding: 20px;              
     border-radius: 6px;
     color: white;
 }
@@ -60,4 +60,165 @@ body { background:black; color:white; }
     background: #0066ff;
     color: white;
     cursor: pointer;
+}
+
+.content {
+    flex: 1;
+    padding: 25px;
+    overflow-y: auto;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #0066ff;
+    padding-bottom: 8px;
+}
+
+
+.box {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+
+.box table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.box table th,
+.box table td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+    vertical-align: top;
+}
+
+.box table th {
+    background: #0066ff;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.box table tr:hover {
+    background: #2a2a2a;
+}
+
+td.pending {
+    color: orange;
+    font-weight: bold;
+}
+
+td.solved {
+    color: #00ff99;
+    font-weight: bold;
+}
+
+td.declined {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+/* ACTION FORM */
+.box form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.box select,
+.box textarea {
+    background: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 6px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+.box textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+.box button {
+    background: #0066ff;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.box button:hover {
+    background: #0052cc;
+}
+
+.box table td[colspan] {
+    padding: 20px;
+    color: #aaa;
+}
+
+.content form {
+    background: #2e2e2e;
+    padding: 20px;
+    border-radius: 6px;
+    max-width: 500px;
+    margin-bottom: 30px;
+}
+
+.content form input,
+.content form textarea,
+.content form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background: #444;
+    color: white;
+}
+
+.content form textarea {
+    resize: vertical;
+}
+
+.content form button {
+    padding: 8px;
+    background: #0066ff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.content form button:hover {
+    background: #0052cc;
+}
+
+/* Packages table */
+.content table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e1e1e;
+}
+
+.content table th,
+.content table td {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+.content table th {
+    background: #0066ff;
+    color: white;
+}
+
+.content table tr:hover {
+    background: #2a2a2a;
 }
