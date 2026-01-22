@@ -1,0 +1,70 @@
+.box {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.box input[type="text"],
+.box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.box textarea {
+    height: 100px;
+}
+
+.box button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.box table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.box table th,
+.box table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.box table th {
+    background-color: #28a745;  
+    color: #000;                
+}
+
+
+.box table  {
+    background-color: #050505;
+}
+
+
+td.pending {
+    color: orange;
+    font-weight: bold;
+}
+
+td.active {
+    color: green;
+    font-weight: bold;
+}
+
+td.rejected {
+    color: red;
+    font-weight: bold;
+}
